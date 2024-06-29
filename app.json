@@ -1,0 +1,35 @@
+{
+  "name": "pose-detection-expo",
+  "displayName": "pose-detection-expo",
+  "expo": {
+    "name": "pose-detection-expo",
+    "slug": "pose-detection-expo",
+    "version": "1.0.0",
+    "jsEngine": "jsc",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow $(PRODUCT_NAME) to access your camera."
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+      }
+    },
+    "android": {
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO"
+      ],
+      "package": "com.sadmansayem.posedetectionexpo"
+    },
+    "ios": {
+      "bundleIdentifier": "com.sensation.posedetection"
+    }
+  }
+}
