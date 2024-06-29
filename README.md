@@ -1,0 +1,2 @@
+# tensorflow-pose-detection
+ This project utilizes PoseNet for real-time pose detection from a camera feed. PoseNet, a deep learning model  of TensorFlow, accurately estimates human poses in real-time using a mobile camera. By leveraging PoseNet's capabilities, this application enables robust pose detection, making it ideal for applications in fitness tracking, augmented reality, and human-computer interaction.
